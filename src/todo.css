@@ -1,0 +1,62 @@
+.todoInput{
+    font-size: 20px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(241, 229, 213);
+}
+.updatedInput{
+    font-weight: bold;
+    font-size: 20px;
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:none;
+    background-color: rgb(241, 229, 213);
+}
+ul{
+    padding-left: 0%;
+}
+h1{
+    margin-left: 165px;
+    color: rgb(56, 38, 38);
+}
+span{
+    color: rgb(8, 6, 114);
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.addTodo,.clearTodo {
+    width: 12%;
+    background-color: #585fc4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:15px;
+}
+
+
+.removeTodo,.updateTodo {
+    background-color: #585fc4;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #423994;
+}
